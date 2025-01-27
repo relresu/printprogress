@@ -1,0 +1,237 @@
+/* CSS styles */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap'); 
+
+body { 
+font-family: 'Quicksand', sans-serif;
+margin-top: 100px;
+color: #2e8b57;
+background-image: url("https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.15752-9/473532834_962579265392127_2078426884627962723_n.png?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeF6g3wcCxlWWMarDV6wGJz-sSPEFv0OYoSxI8QW_Q5ihFjVrW2MX5cZI9WLTkzpgFJrUVvZ1BIfVpETK0Ne0S7z&_nc_ohc=beoeNwJps7wQ7kNvgHv6hY8&_nc_oc=Adj0ue6UhrSW8p1JlNz-sFxsSkjah4wN-ydVRAP8htMAG2YgrlExJecj68yGeLgoQfA&_nc_zt=23&_nc_ht=scontent.fmnl17-2.fna&oh=03_Q7cD1gEEwdczBEzF05Pg--aFnDGP1bgofVNTAoThN2xRWIijZQ&oe=67BDF2A2");
+background-repeat: no-repeat;}
+
+h1 {
+border: 3px solid #4CAF50;
+line-height: 30px;
+border-radius: 30px;
+margin-left: 55px;
+font-size: 65px;
+text-align: center;
+color: #2e8b57;
+padding: 50px;
+width: 680px;
+height: 220px;
+background: #e7ffce;
+object-fit: cover;
+margin-bottom: 300px;
+margin-top: 160px;
+}
+
+.logo {
+width: 50px; 
+height: 40px; 
+object-fit: cover; 
+justify-content: flex-start;
+display: flex;
+object-fit: cover;
+order: -1;
+margin-right: auto;
+}
+
+nav ul:not(.logo){
+font-weight: bold;
+cursor: pointer;
+box-sizing: border-box;
+width: 100%;
+list-style: none;
+position: fixed;
+top: -16px;
+left: 0px;
+background-color:#e7ffce;
+display: flex;
+justify-content: flex-end;
+text-align: right;
+z-index: 1000;
+position: fixed;
+gap: 10px; 
+padding-top: 10px;
+padding-bottom: 10px;
+color: #2e8b57;
+border-bottom: 3px solid #4CAF50;
+}
+
+li {
+background-color:#e7ffce;
+color: #2e8b57;
+padding: 1em;
+border: 2px solid #4CAF50;
+border-radius: 10px;
+padding: 10px;
+}
+
+li:last-of-type {
+margin-right: 20px;
+}
+
+li:hover {
+background-color:white;
+transition-duration: 1s; 
+color: black;
+}
+
+a {
+color: #2e8b57;
+text-decoration: none;
+}
+
+a:hover {
+transition-duration: 0.5s; 
+display: flex;
+object-fit: cover;
+color:black;
+}
+
+p {
+margin: 50px;
+font-size: 30px;
+width: 50px;
+height: 50px;
+text-align: left; 
+}
+
+
+#basta{
+margin: 50px;
+font-size: 30px;
+}
+
+.nav-title {
+position: absolute;
+left: 80px;
+top: 14px;
+font-size: 24px;
+font-weight: bold;
+color: #2e8b57;
+bold: 10%;
+}
+
+
+h2 {
+font-size: 50px;
+color: #2e8b57;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.button-container {
+left: -10px;
+align-items: center;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 30px;
+max-width: 600px;
+margin: 10px 50px 10px 50px;
+padding: 100px;
+position: absolute;
+align-items: center;
+}
+
+.button1 {
+width: 300px;
+height: 200px;
+background-color: white;
+color: #2e8b57;
+border: 3.5px solid #4CAF50;
+padding: 10px 20px;
+cursor: pointer;
+border-radius: 20px;
+box-shadow: 0px 0px 10px #000; 
+background-image: url('https://scontent.fmnl17-7.fna.fbcdn.net/v/t1.15752-9/474492508_639171558684197_8034632436666459118_n.png?_nc_cat=108&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGfPm5iRqsp3Z-J3JnCWwdC1DwW9QBHCcPUPBb1AEcJw8pbZrMET6Qkliq6JPB4cmH2Tkzo57vN1r03zMOtxH__&_nc_ohc=Zk0dK3gav_cQ7kNvgE7fCV2&_nc_oc=Adilvh7b5PgdzntjyYOQFQCp1exH7eaGkU012X_0R5WfQkPMpbpdLg3JobbGa5GTvjY&_nc_zt=23&_nc_ht=scontent.fmnl17-7.fna&oh=03_Q7cD1gE16AkDDnaEe72c19PC9fv4rbFLkrFuODdstncUj75WGg&oe=67BF2E65');
+background-position: 50% 35%;
+font-family: 'Quicksand', sans-serif;
+font-weight: bold;
+font-size: 40px;
+background-size: cover;
+text-shadow: -2px 0px #fff, 0px 2px #fff, 2px 0px #fff, 0px -2px #fff;
+}
+.button2 {
+width: 300px;
+height: 200px;
+background-color: white;
+color: #2e8b57;
+border: 3.5px solid #4CAF50;
+padding: 10px 20px;
+font-size: 40px;
+cursor: pointer;
+border-radius: 20px;
+box-shadow: 0px 0px 10px #000; 
+font-weight: bold;
+font-family: 'Quicksand', sans-serif;
+text-shadow: -2px 0px #fff, 0px 2px #fff, 2px 0px #fff, 0px -2px #fff;
+background-image: url('https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.15752-9/474089228_1054640336469472_1143405097488960516_n.png?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHq47gP414DU6NvqXh4YmZ7yBkqNADIUdLIGSo0AMhR0h-QRbSdgoWGoC5x7K5Sa8trBaOX5R-VLLYbG0QDeBOS&_nc_ohc=iZdWv161y0UQ7kNvgGPlmtg&_nc_oc=AdhS1uGFcG5_XRO1ClH5kb-5E-ifAr_-NKWQ9Zp-Q-LCSs6ZTibpZMgeuLFZJTcBL3A&_nc_zt=23&_nc_ht=scontent.fmnl17-4.fna&oh=03_Q7cD1gH3LsPwFeOv-xCN9He_Fi57X_SaAggK-88NPFeYQZpWFA&oe=67BF3C7F');
+background-position: 30% 40%;
+}
+}
+.button3 {
+width: 300px;
+height: 200px;
+background-color: white;
+color: black;
+border: 3.5px solid #4CAF50;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border-radius: 20px;
+box-shadow: 0px 0px 10px #000; 
+font-weight: bold;
+font-family: 'Quicksand', sans-serif;
+text-shadow: -2px 0px #fff, 0px 2px #fff, 2px 0px #fff, 0px -2px #fff;
+text-shadow: -2px 0px #fff, 0px 2px #fff, 2px 0px #fff, 0px -2px #fff;
+background-image: url('https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.15752-9/474089228_1054640336469472_1143405097488960516_n.png?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHq47gP414DU6NvqXh4YmZ7yBkqNADIUdLIGSo0AMhR0h-QRbSdgoWGoC5x7K5Sa8trBaOX5R-VLLYbG0QDeBOS&_nc_ohc=iZdWv161y0UQ7kNvgGPlmtg&_nc_oc=AdhS1uGFcG5_XRO1ClH5kb-5E-ifAr_-NKWQ9Zp-Q-LCSs6ZTibpZMgeuLFZJTcBL3A&_nc_zt=23&_nc_ht=scontent.fmnl17-4.fna&oh=03_Q7cD1gH3LsPwFeOv-xCN9He_Fi57X_SaAggK-88NPFeYQZpWFA&oe=67BF3C7F');
+}
+.button4 {
+width: 300px;
+height: 200px;
+background-color: white;
+border: 3.5px solid #4CAF50;
+color: black;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border-radius: 20px;
+box-shadow: 0px 0px 10px #000; 
+}
+.button5 {
+width: 300px;
+height: 200px;
+background-color: white;
+color: black;
+border: 3.5px solid #4CAF50;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border-radius: 20px;
+box-shadow: 0px 0px 10px #000; 
+}
+.button6 {
+width: 300px;
+height: 200px;
+background-color: white;
+color: black;
+border: 3.5px solid #4CAF50;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border-radius: 20px;
+box-shadow: 0px 0px 10px #000; 
+}
+.button7 {
+width: 300px;
+height: 200px;
+background-color: white;
+color: black;
+border: 3.5px solid #4CAF50;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border-radius: 20px;
+box-shadow: 0px 0px 10px #000; 
+}
